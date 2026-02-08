@@ -1,0 +1,492 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+nav h1{
+    color: rgb(247, 247, 62);
+}
+
+.link li{
+    list-style: none;
+    display: inline;
+    margin: 0 15px;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+}
+
+.link li a:hover{
+    color: blue;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    background-color: rgb(73, 5, 73);
+}
+/* nav ends here */
+
+.hero-section{
+    padding: 40px;
+}
+
+.section{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.gain h1{
+    font-size: 65px;
+    width: 80%;
+    padding: 15px 0;
+    font-family: "Archivo Black", sans-serif;
+}
+
+.gain p{
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.btn{
+    padding: 20px 50px;
+    background-color:  rgb(73, 5, 73);
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 10px;
+    border: none;
+    margin: 20px 0;
+    color: white;
+}
+
+.btn:hover{
+     background-color: rgb(211, 5, 5);
+     color:black;
+}
+
+.btn2{
+    padding: 20px 30px;
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: bolder;
+    color: rgb(11, 116, 67);
+    border-radius: 10px;
+    border-color: rgb(29, 107, 29);
+    margin: 0 20px;
+    
+}
+
+.btn2:hover{
+    background-color: rgb(6, 218, 255);
+    color: rgb(8, 8, 8);
+}
+
+.section img{
+    width: 600px;
+    height: 500px;
+}
+/* section ends here */
+
+main{
+    display: flex;
+    justify-content: space-around;
+    padding: 70px;
+}
+
+main h1{
+    font-size: 80px;
+    width: 100%;
+    font-weight: bolder;
+}
+
+.main-text p{
+    font-size: 25px;
+    width: 90%;
+    margin-top: 18px;
+    margin-left: 70px;
+    line-height: 2;
+}
+
+.btn5{
+    padding: 10px 20px;
+    background-color: rgb(90, 8, 90);
+    color: white;
+    margin-top: 10px;
+    margin-left:70px ;
+    border-radius: 10px;
+    border: none;
+}
+/* main ends here */
+
+article{
+    background-color: aliceblue;
+    
+}
+
+article h2{
+    padding-left:500px;
+    padding-top: 30px;
+    font-size: 50px;
+}
+
+.add{
+    padding: 10px 350px;
+    font-size: 20px;
+    /* text-align: center; */
+}
+
+.carrier{
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.carrier img{
+    width: 150px;
+    height: 200px;
+}
+
+.body{
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    border: 0.5px solid rgb(209, 205, 205);
+}
+
+.body:hover{
+    transition: ease-in 0.8s;
+    transform: scale(1.08);
+}
+
+.body h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(65, 8, 119);
+}
+
+.body p{
+    font-size: 20px;
+    padding-top: 10px;
+    line-height: 1.5;
+
+}
+/* article ends here */
+
+aside{
+    background-color: aliceblue;
+}
+
+aside h1{
+    font-size: 40px;
+    padding-top: 40px;
+    padding-left:440px;
+}
+
+.join{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 430px;
+
+}
+
+.leader{
+    display: grid;
+     justify-content: space-around;
+     grid-template-columns: 1fr 1fr 1fr;
+     gap: 20px;
+     padding-top: 50px;
+     margin-left: 50px;
+     margin-right: 50px;
+}
+
+.leader img{
+    width: 200px;
+    height: 200px;
+}
+
+.follower{
+     background-color: #fff;
+     padding: 15px;
+     border-radius: 10px;
+     border: 0.5px solid rgb(209, 205, 205);
+}
+
+.follower:hover{
+     transition: ease-in 0.8s;
+     transform: scale(1.08);
+}
+
+.follower h3{
+    font-size: 25px;
+    color: rgb(64, 7, 117);
+}
+
+.follower p{
+    font-size: 20px;
+    line-height: 1.5;
+}
+/* aside ends here */
+
+figure{
+    background-color: aliceblue;
+}
+
+figure h1{
+    font-size: 50px;
+    padding-left: 530px;
+    padding-top: 40px;
+}
+
+.right{
+    padding-left: 300px;
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+.variable{
+    display: grid;
+     justify-content: space-around;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     gap: 20px;
+     padding-top: 50px;
+     margin-left: 50px;
+     margin-right: 50px
+}
+
+.able{
+     background-color: #fff;
+     padding: 20px;
+     border-radius: 20px;
+     border: 0.5px solid rgb(209, 205, 205);
+
+}
+
+.able:hover{
+     transition: ease-in 0.8s;
+     transform: scale(1.08);
+}
+
+.variable img{
+      width: 200px;
+      height: 200px;
+}
+
+.variable h4{
+    font-size: 25px;
+    padding: 0 10px;
+    color: rgb(54, 7, 99);
+}
+
+.variable p{
+    padding: 10px;
+    font-size: 20px;
+    line-height: 1.5;
+
+}
+
+.app{
+    padding: 10px 30px;
+    background-color: rgb(64, 11, 112);
+    margin: 20px 680px;
+    color: white;
+    border-radius: 10px;
+}
+/* figure ends here */
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(29, 2, 56);
+    padding: 30px 0;
+}
+
+footer h1{
+    color: white;
+}
+
+.ios h3{
+    font-size: 30px;
+    color: white;
+    padding: 10px 0;
+}
+
+.ios li{
+    list-style: none;
+}
+
+.ios li a{
+    text-decoration: none;
+    color: white;
+    line-height: 1.8;
+}
+
+.ios li a:hover{
+    color: rgb(9, 141, 248);
+}
+
+
+
+
+
+
+/* media query starts here */
+@media screen and (max-width:850px){
+    .link li{
+        display: none;
+    }
+
+    nav h1{
+        padding-top: 15px;
+    }
+
+    .hero-section{
+        padding: 20px;
+    }
+
+    .section{
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .gain h1{
+        font-size: 70px;
+        width: 150%;
+        padding: 0;
+    }
+
+    .gain P{
+        width: 100%;
+        font-size: 25px;
+        line-height: 1.5;
+    }
+
+    .btn2{
+         margin: 5px;
+    }
+
+    .section img{
+         width: 480px;
+         height: 400px;
+         margin-top:20px;
+    }
+
+    main{
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    main h1{
+         font-size: 50px;
+         width: 100%;
+         font-weight: bolder;
+         text-align: center;
+    }
+
+    .main-text p{
+         font-size: 25px;
+         width: 100%;
+         margin-top: 18px;
+         margin-left: 20px;
+         line-height: 1.5;
+    }
+
+    .btn5{
+        margin-left: 20px;
+    }
+
+    article h2{
+         padding-left:50px;
+         padding-top: 20px;
+         font-size: 50px;
+    }
+
+    .add{
+         padding: 10px 80px;
+         font-size: 25px;
+         width: 100%;
+    }
+
+    .carrier{
+        grid-template-columns: 1fr;
+    }
+
+    .body P{
+         font-size: 25px;
+         padding-top: 10px;
+         line-height: 1.5;
+    }
+
+    aside h1{
+         font-size: 30px;
+         padding-top: 40px;
+         padding-left:30px;
+    }
+
+    .join{
+          font-size: 25px;
+          padding-top: 10px;
+          padding-left: 40px;
+    }
+
+    .leader{
+        grid-template-columns: 1fr;
+    }
+
+    figure h1{
+         font-size: 40px;
+         padding-left: 80px;
+         padding-top: 40px;
+    }
+
+    .right{
+         padding-left: 25px;
+         font-size: 25px;
+         padding-top: 5px;
+    }
+
+    .variable{
+        grid-template-columns: 1fr;
+    }
+
+
+    .app{
+         margin: 20px 180px;
+    }
+
+    footer{
+        flex-direction: column;
+        padding: 50px 200px;
+        /* align-items: center; */
+    }
+
+    footer h1{
+        font-size: 35px;
+    }
+
+    .ios li a{
+        line-height: 2.5;
+        font-size: 20px;
+    }
+
+
+
+}
