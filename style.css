@@ -280,6 +280,7 @@ figure h1{
 
 }
 
+
 .able:hover{
      transition: ease-in 0.8s;
      transform: scale(1.08);
@@ -304,7 +305,7 @@ figure h1{
 }
 
 .app{
-    padding: 10px 30px;
+    padding: 10px 20px;
     background-color: rgb(64, 11, 112);
     margin: 20px 650px;
     color: white;
