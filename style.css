@@ -11,7 +11,7 @@ body{
 }
 
 nav h1{
-    color: rgb(247, 247, 62);
+    color: white;
 }
 
 .link li{
@@ -55,7 +55,7 @@ nav{
 }
 
 .gain h1{
-    font-size: 65px;
+    font-size: 70px;
     width: 80%;
     padding: 15px 0;
     font-family: "Archivo Black", sans-serif;
@@ -315,7 +315,79 @@ figure h1{
     color: white;
     border-radius: 10px;
 }
+
+.app:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+}
 /* figure ends here */
+
+
+figcaption{
+    background-color: aliceblue;
+}
+
+
+figcaption h3{
+    padding-left: 30px;
+    font-size: 35px;
+    padding-top: 30px;
+}
+
+figcaption p{
+    padding-left: 30px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    
+}
+
+.form-group{
+    margin-bottom: 20px;
+    margin-left: 30px;
+
+}
+
+.form-group label{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: lighter;
+    /* color: rgb(73, 13, 129); */
+}
+
+.form-group input, .form-group select{
+    width: 30%;
+    padding: 12px 16px;
+    border-radius: 8px;
+
+}
+
+.form-group input, .form-group select{
+    outline: none;
+    border-color: #ffffff;
+    box-shadow: 0 0 0 2px rgba(5, 50, 250, 0.1);
+}
+
+.switch-btn{
+    width: 10%;
+    padding: 14px;
+    background:rgb(79, 19, 134);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    /* cursor: pointer; */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-bottom: 25px;
+}
+
+.switch-btn:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+}
+/* figcaption ends here */
 
 footer{
     display: flex;
@@ -348,6 +420,12 @@ footer h1{
     color: rgb(9, 141, 248);
 }
 
+.icons a{
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+}
+
 
 
 
@@ -374,14 +452,15 @@ footer h1{
     }
 
     .gain h1{
-        font-size: 70px;
-        width: 120%;
+        font-size: 50px;
+        font-weight: bolder;
+        width: 150%;
         padding: 0;
     }
 
     .gain P{
         width: 100%;
-        font-size: 25px;
+        font-size: 22px;
         line-height: 1.5;
     }
 
@@ -390,7 +469,7 @@ footer h1{
     }
 
     .section img{
-         width: 480px;
+         width: 360px;
          height: 400px;
          margin-top:20px;
     }
@@ -401,14 +480,14 @@ footer h1{
     }
 
     main h1{
-         font-size: 50px;
+         font-size: 35px;
          width: 100%;
          font-weight: bolder;
          text-align: center;
     }
 
     .main-text p{
-         font-size: 25px;
+         font-size: 22px;
          width: 100%;
          margin-top: 18px;
          margin-left: 20px;
@@ -422,11 +501,11 @@ footer h1{
     article h2{
          padding-left:50px;
          padding-top: 20px;
-         font-size: 50px;
+         font-size: 35px;
     }
 
     .add{
-         padding: 10px 80px;
+         padding: 10px 50px;
          font-size: 25px;
          width: 100%;
     }
@@ -458,14 +537,14 @@ footer h1{
     }
 
     figure h1{
-         font-size: 40px;
-         padding-left: 80px;
+         font-size: 35px;
+         padding-left: 50px;
          padding-top: 40px;
     }
 
     .right{
          padding-left: 25px;
-         font-size: 25px;
+         font-size: 22px;
          padding-top: 5px;
     }
 
@@ -475,8 +554,21 @@ footer h1{
 
 
     .app{
-         margin: 20px 180px;
+         margin: 20px 100px;
     }
+
+
+    .form-group{
+        /* padding-left: 30px; */
+        width: 280%;
+    }
+
+    .switch-btn{
+        margin-left: 80px;
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
 
     footer{
         flex-direction: column;
@@ -491,6 +583,10 @@ footer h1{
     .ios li a{
         line-height: 2.5;
         font-size: 20px;
+    }
+
+    .icons i{
+        margin-top: 20px;
     }
 
 
